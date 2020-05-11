@@ -1,0 +1,63 @@
+.child {
+    width: 100px;
+    padding: 10px;
+    color: #FFF;
+    font-size: 42px;
+    box-sizing: border-box;
+  }
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.wrapper, h4 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.parent {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+}
+
+.parent2 {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.parent3 {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent4 {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}

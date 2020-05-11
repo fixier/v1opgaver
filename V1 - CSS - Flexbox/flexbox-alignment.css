@@ -1,0 +1,106 @@
+.child , .child4 {
+    width: 100px;
+    padding: 10px;
+    color: #FFF;
+    font-size: 42px;
+    box-sizing: border-box;
+  }
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+    box-sizing: border-box;
+}
+
+.wrapper, h4 {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.parent1, .parent2,.parent3, .parent4, .parent5, .parent6, .parent7, .parent8, .parent9, .parent10, .parent11, .parent12 {
+    display: flex;
+    background-color: #ccc;
+    min-height: 100px;
+}
+
+.parent1 {
+    justify-content: flex-start;
+}
+
+.parent2 {
+    justify-content: flex-end;
+}
+
+.parent3 {
+    justify-content: center;
+}
+
+.parent4 {
+    justify-content: space-between;
+}
+
+.parent5 {
+    justify-content: space-around;
+}
+
+.parent6 {
+    align-items: flex-start;
+    height: 200px;
+}
+
+.parent7 {
+    align-items: flex-end;
+    height: 200px;
+}
+
+.parent8 {
+    align-items: center;
+    height: 200px;
+}
+
+.parent9 div {
+    min-width: 200px;
+}
+
+.parent9 {
+    flex-wrap: wrap;
+}
+
+.parent10 > .orange{
+    align-self: flex-end;
+}
+
+.parent11 > .orange {
+    order: -1;
+}
+.parent11 > .red {
+    order: 1;
+}
+
+.parent12 > .red, 
+.parent12 > .orange {
+    flex: auto;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
